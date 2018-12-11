@@ -32,7 +32,7 @@ client.on('message', message => {
    + `${argresult}` + "``**")
   } else 
   if (message.content.startsWith(adminprefix + 'st')) {
-    client.user.setGame(argresult, "https://www.twitch.tv/i_kahrba999");
+    client.user.setGame(argresult, "https://www.twitch.tv/niijaxo");
       message.channel.send("**:white_check_mark: | The Streaming Status Has Been Changed To : ``"
    + `${argresult}` + "``**")
   }
